@@ -1,7 +1,9 @@
 # Vue-Cary-Carousel
 ![Vue 2.x](https://img.shields.io/badge/vue-2.x-green.svg "Vue 2 Compatible")
 
-A carousel plugin for vue2.
+
+
+![A carousel plugin for vue2.]('https://raw.githubusercontent.com/cry101/vue-cary-carousel/master/view.gif')
 
 **Note:**
 Issue/PR is welcomed, I'll response as soon as possible.
