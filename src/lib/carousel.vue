@@ -63,6 +63,10 @@ export default {
         shadow: {
             type: Boolean,
             default: true
+        },
+        rotateX: {
+            type: Number,
+            default: -10
         }
     },
     data() {
@@ -73,7 +77,7 @@ export default {
             minusX: 0,
             minusY: 0,
             roY: 0,
-            roX: -10,
+            roX: 0,
             timer: null,
             timeplayer: null,
             transtion: ''
@@ -108,6 +112,9 @@ export default {
     },
     methods: {
         init() {
+            if (this.rotateX) {
+                this.roX = this.rotateX // 初始化倾斜角度
+            }
             this.$nextTick(() => {
                 let oImg = this.$refs.img
                 if (oImg) {
@@ -201,7 +208,7 @@ export default {
     margin: 0 auto;
     position: relative;
     transform-style: preserve-3d;
-    transform: rotateX(-10deg) rotateY(0deg);
+    transform: rotateX(0deg) rotateY(0deg);
     user-select: none;
     -webkit-user-drag: none;
 }

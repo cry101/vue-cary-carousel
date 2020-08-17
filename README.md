@@ -39,6 +39,7 @@ translateZ | `number` | `250` | false | The image positon
 autoplay | `boolean` | `false` | false | Whether to auto play
 delay | `number` | `3000` | false | The autoplay delay
 shadow | `boolean` | `true` | false | The image shadow
+rotateX | `number` | `-10` | false | The init rotateX deg
 
 
 ##### example
