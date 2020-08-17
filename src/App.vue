@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <vue-cary-carousel :list="list" autoplay />
+        <vue-cary-carousel :list="list" autoplay :delay="2000" />
     </div>
 </template>
 
