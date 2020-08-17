@@ -1,6 +1,6 @@
 {
   "name": "vue-cary-carousel",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "author": "cary",
   "description": "A vue 3d carousel",
   "keyword": "vue 3d carousel",
@@ -11,6 +11,10 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name carousel ./src/lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cry101/vue-cary-carousel"
   },
   "dependencies": {
     "core-js": "^3.6.5",
