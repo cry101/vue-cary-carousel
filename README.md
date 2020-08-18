@@ -32,10 +32,10 @@ Vue.use(VueCaryCarousel)
 Parameter | Type | Default | Required | Description
 --------- | ---- | ---- | ---- |-----------
 list | `array` | `[]` | true | The images list
-height | `number`| `500` | false | The container height
-imgWidth | `number` | `140` | false | The image width
-imgHeight | `number` | `180` | false | The image height
-translateZ | `number` | `250` | false | The image positon
+height | `number`| `400` | false | The container height
+imgWidth | `number` | `120` | false | The image width
+imgHeight | `number` | `160` | false | The image height
+translateZ | `number` | `300` | false | The image positon
 autoplay | `boolean` | `false` | false | Whether to auto play
 delay | `number` | `3000` | false | The autoplay delay
 shadow | `boolean` | `true` | false | The image shadow
